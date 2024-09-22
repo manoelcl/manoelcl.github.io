@@ -403,13 +403,18 @@ article li a div {
 .file h2::before {
   content: "📝 ";
 }
+.file.love h2::before {
+  content: "💜 ";
+}
+.file.mood h2::before {
+  content: "🫥 ";
+}
 .exe h2::before {
   content: "👾 ";
 }
 .exe {
   /* text-align: center; */
 }
-
 .transparent {
   background: none;
 }
