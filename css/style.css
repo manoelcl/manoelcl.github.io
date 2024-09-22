@@ -102,6 +102,12 @@ header {
     transform: rotateX(0deg);
   }
 }
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
 header div#logo {
   animation: headerIntro 0.3s;
   animation-delay: 0.25s;
@@ -433,56 +439,79 @@ article li a div {
 article li a[href="https://maxscheler.itch.io/"] div
 {
   background-image: url("../img/itchio.svg");
+  background-repeat: no-repeat;
 }
 article li a[href="https://maxscheler.itch.io/"]:focus div,
 article li a[href="https://maxscheler.itch.io/"]:hover div
 {
   background: url("../img/itchio.svg") var(--color-main);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 article li a[href="https://sketchfab.com/manoel"] div
 {
   background-image: url("../img/sketchfab.svg");
+  background-repeat: no-repeat;
 }
 article li a[href="https://sketchfab.com/manoel"]:focus div,
 article li a[href="https://sketchfab.com/manoel"]:hover div
 {
   background: url("../img/sketchfab.svg") var(--color-main);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 article li a[href="https://github.com/manoelcl"] div
 {
   background-image: url("../img/github.svg");
+  background-repeat: no-repeat;
 }
 article li a[href="https://github.com/manoelcl"]:focus div,
 article li a[href="https://github.com/manoelcl"]:hover div
 {
   background: url("../img/github.svg") var(--color-main);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 article li a[href="https://www.linkedin.com/in/manoelcl/"] div
 {
   background-image: url("../img/linkedin.svg");
+  background-repeat: no-repeat;
 }
 article li a[href="https://www.linkedin.com/in/manoelcl/"]:focus div,
 article li a[href="https://www.linkedin.com/in/manoelcl/"]:hover div
 {
   background: url("../img/linkedin.svg") var(--color-main);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
-article li a[href="https://www.instagram.com/max_peak_/"] div
+article li a[href="https://www.instagram.com/spell_castro/"] div
 {
   background-image: url("../img/instagram.svg");
+  background-repeat: no-repeat;
 }
-article li a[href="https://www.instagram.com/max_peak_/"]:focus div,
-article li a[href="https://www.instagram.com/max_peak_/"]:hover div
+article li a[href="https://www.instagram.com/spell_castro/"]:focus div,
+article li a[href="https://www.instagram.com/spell_castro/"]:hover div
 {
   background: url("../img/instagram.svg") var(--color-main);
   background-size: contain;
+  background-repeat: no-repeat;
+}
+
+article li a[href="https://mastodon.social/@spell_castro"] div
+{
+  background-image: url("../img/mastodon.svg");
+  background-repeat: no-repeat;
+}
+article li a[href="https://mastodon.social/@spell_castro"]:focus div,
+article li a[href="https://mastodon.social/@spell_castro"]:hover div
+{
+  background: url("../img/mastodon.svg") var(--color-main);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 article.folder ul {
